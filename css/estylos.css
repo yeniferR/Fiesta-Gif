@@ -1,0 +1,30 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family:  Helvetica;
+}
+nav{
+    display: flex;
+    background-color: #7ACC2D;
+    padding: 10px;
+    color: white;  
+    justify-content: space-between; 
+    align-items: center;
+}
+nav ul{
+  display:flex;
+}
+nav li{
+    padding-left: 20px;
+    list-style: none;
+    color: white;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+}
+/* animacion cuando se toque cambie de color */
+nav li a:hover{
+color: white;
+}
