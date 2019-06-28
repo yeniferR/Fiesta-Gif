@@ -3,4 +3,4 @@ var b=2;
 var nombre="Yenifer";
 var apellido="Rivas Moreno";
 
-alert(nombre+" "+ apellido)
+// alert(nombre+" "+ apellido)
