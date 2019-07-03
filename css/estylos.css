@@ -28,3 +28,20 @@ nav li a{
 nav li a:hover{
 color: white;
 }
+/*------------------------------------- main section------- */
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+.products{
+    background-image: url("../imagenes/curve.png");
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20px;
+    display: flex;
+}
+.product .content{
+    background-color:white;
+    padding: 20px;
+}
