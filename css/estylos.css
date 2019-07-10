@@ -41,6 +41,9 @@ color: white;
     padding: 20px;
     display: flex;
 }
+.prpduct {
+    padding: 10px;
+}
 .product .content{
     background-color:white;
     padding: 20px;
