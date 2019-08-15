@@ -11,6 +11,7 @@ nav{
     color: white;  
     justify-content: space-between; 
     align-items: center;
+    min-height: 60px;
 }
 nav ul{
   display:flex;
@@ -35,16 +36,85 @@ color: white;
 }
 .products{
     background-image: url("../imagenes/curve.png");
-    height: 200px;
+    height: 95px;
     background-size: cover;
     background-position: center top;
-    padding: 20px;
+    padding:15%;
     display: flex;
+    background-repeat: no-repeat;
 }
-.prpduct {
-    padding: 10px;
+.product {
+    padding: 20px;
+    margin-top: -226px;
 }
 .product .content{
     background-color:white;
     padding: 20px;
+    box-shadow: 0 0 2px 1px #e6e5e9;
+    border-radius: 3px;
 }
+.img_content{
+    text-align: center;
+}
+.main_button{
+    background-color: #7ACC2D;
+    border: 0;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+}
+.main_button:hover{
+    background-color: #5e9e22;
+}
+/* -------Beneficions------- */
+.home{
+    display: flex;
+    padding: 10%;
+}
+.b1,.b2,.b3{
+    text-align: center;
+    padding: 20px;
+}
+.b1 img, .b2 img, .b3 img{
+    max-height: 100px;
+}
+.text{
+    text-align: justify;
+}
+
+hr{
+    opacity: 0.2;
+}
+/* -------menciones{
+padding: 100px;
+} */
+.menciones-h1 {
+    text-align: center;
+}
+.menciones-p{
+    display: flex;
+    padding: 5%;
+    
+}
+.menciones-p1, .menciones-p2, .menciones-p3,.menciones-p4{
+    padding: 10px;
+}
+.p1,.p2,.p3,.p4{
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.p1 img, .p2 img, .p3 img, .p4 img{
+    width: 100%;
+}
+.name-desc{
+    padding: 10px;
+}
+footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
