@@ -2,7 +2,7 @@ html,body{
     padding: 0px;
     margin: 0px;
     font-size: 12px;
-    font-family:  Helvetica;
+    font-family:  'Open Sans',sans-serif;
 }
 nav{
     display: flex;
@@ -110,6 +110,34 @@ padding: 100px;
 .name-desc{
     padding: 10px;
 }
+
+/* ---------------------------------ventas */
+.modulo_pago{
+    background-color: white;
+    box-shadow: 0px 0 2px 1px #e6e5e9;
+    padding: 10px;
+}
+.modulo_pago_images{
+    max-width: 200px;
+    text-align: center;
+    /* width: 100%;
+     */
+     margin: auto;
+}
+.data{
+    margin-top: 16px;
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+    margin-top: 10px;
+}
+
+
 footer{
     padding: 10px;
     background-color: black;
